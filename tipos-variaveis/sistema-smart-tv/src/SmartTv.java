@@ -15,7 +15,7 @@ public class SmartTv {
         canal --;
     }
 
-    System.out.println("Aumentando o volume para: " + volume );
+    //System.out.println("Aumentando o volume para: " + volume );
 
 
     public void aumentarVolume(){
