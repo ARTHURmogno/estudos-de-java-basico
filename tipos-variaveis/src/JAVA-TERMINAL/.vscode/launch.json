@@ -5,12 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         
+        
         {
             "type": "java",
             "name": "AboutMe",
             "request": "launch",
             "mainClass": "AboutMe",
-            "projectName": "JAVA-TERMINAL_2d3c7629"
+            "args": [
+                "ARTHUR",
+                "SANTOS",
+                "18",
+                "1.65",
+            ]
         },
         {
             "type": "java",
