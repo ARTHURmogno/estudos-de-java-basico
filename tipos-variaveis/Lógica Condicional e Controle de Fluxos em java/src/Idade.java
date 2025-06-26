@@ -15,7 +15,7 @@ public class Idade {
        // solicitação da idade (ENTRADA)
 
         System.out.println("Qual seu nome! ");
-        String nome = scanner.next();
+        String  = scanner.next();
 
         System.out.println("Qual sua idade! ");
         int idade = scanner.nextInt();
@@ -37,7 +37,7 @@ public class Idade {
         }
 
         if(idade >= 18 ){
-            System.out.println("Você, Pode emtra na reuniâo ");
+            System.out.println("Você, Pode entra na reuniâo ");
         }else{
             System.out.println("Você, NÃO pode entrar na reuniâo ");
         }
