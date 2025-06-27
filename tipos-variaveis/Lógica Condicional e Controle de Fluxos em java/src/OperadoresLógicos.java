@@ -30,6 +30,24 @@ public class OperadoresLógicos {
         System.out.println("((i1 + i2) < (f2 - f1)) && true " + (((i1 + i2) < (f2 - f1)) && true));
         System.out.println("(i1 > i2) || (f2 < f1) " + ((i1 > i2) || (f2 < f1)));
         
+        double salarioMensal = 100999.88;
+        double mediaSalario = 90777;
         
+        int quantidadeDependentes = 6;
+        int mediaDependentes = 3;
+
+        System.out.println((salarioMensal < mediaSalario) && (quantidadeDependentes >= mediaDependentes));
+
+
+        boolean salarioBaixo = salarioMensal < mediaSalario;
+        boolean muitosDependentes = quantidadeDependentes >= mediaDependentes;
+
+
+        System.out.println((salarioBaixo) && (muitosDependentes));
+
+
+        boolean recebeAuxilio = (salarioBaixo) && (muitosDependentes);
+        System.out.println("recebeAuxilio " + recebeAuxilio);
+
     }
 }

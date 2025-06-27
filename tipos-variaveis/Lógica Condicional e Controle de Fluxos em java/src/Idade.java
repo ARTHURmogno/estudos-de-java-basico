@@ -15,7 +15,7 @@ public class Idade {
        // solicitação da idade (ENTRADA)
 
         System.out.println("Qual seu nome! ");
-        String  = scanner.next();
+        String nome = scanner.next();
 
         System.out.println("Qual sua idade! ");
         int idade = scanner.nextInt();
