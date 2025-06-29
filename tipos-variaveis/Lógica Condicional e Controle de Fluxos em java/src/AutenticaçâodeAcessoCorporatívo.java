@@ -50,21 +50,15 @@ public class AutenticaçâodeAcessoCorporatívo {
         System.out.println("Tem agendamento confirmado? (true ou false) ");
         boolean agendamento = scanner.nextBoolean();
 
-        if(eFuncionario && temCracha){
-            System.out.println("Bem vindo de volta! " + nome );
+        boolean identidadeValida = eFuncionario ^ eVisitante;
+
+        boolean acessoFuncionario = eFuncionario && temCracha;
+        boolean acessoVisitante = eVisitante && agendamento;
+
+        if(identidadeValida && (acessoFuncionario || acessoVisitante)){
+            System.out.println("Acesso liberado. Bem-vindo, " + nome + "!");
         } else {
-            System.out.println("Permiçâo, Negada! ");
-        }
-        
-        if(eVisitante || agendamento){
-            System.out.println("É visitante, qual o agendamento! ");
-        } else {
-            System.out.println("Agendamento não Emcontrado! ");
-        }
-        if(eFuncionario ^ eVisitante){
-            System.out.println("Funcionario não pode-ser(Visitante) ");
-        } else {
-            System.out.println("Visitente não pode-ser(Funcionario) ");
+            System.out.println("Acesso nagado. Verifique suas credenciaís. ");
         }
 
         scanner.close();
