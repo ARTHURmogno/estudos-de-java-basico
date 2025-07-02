@@ -44,12 +44,26 @@ public class OperadoresRelacionais {
 
         scanner.close();
  * 
+ * ////////////////////////////////////////////////////
+ * switch (numeroMes) {
+            case 1:
+             System.out.println("janeiro de " + ano);
+            break;
+            case 2:
+             System.out.println("fevereiro de " + ano);
+            break;
+            default:
+            System.out.println("Número inválido! ");
+ * 
+ * 
+ * 
+ *
  * 
  * 
  * 
  * 
  * 
- * 
+ *  
  */
     }
 }
