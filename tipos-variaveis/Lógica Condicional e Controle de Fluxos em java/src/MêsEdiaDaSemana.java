@@ -1,14 +1,25 @@
+import java.time.DayOfWeek;
+import java.time.LocalDate;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class MêsEdiaDaSemana {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+       
+        int ano = (2025);
+
+        System.out.println("Qual o dia da Semana! ");
+        int diaDaSemana = scanner.nextInt();
 
         System.out.println("Digite um número, Corespondendente ao mês! ");
         int numeroMes = scanner.nextInt();
 
-        int ano = (2025);
+        //if (diaDaSemana >= 1 && diaDaSemana <= 7) {
+          //  System.out.println("Dia válido! ");
+        //if (semana == 1) {
+         //   System.out.println("Primeiro dia da Semana! Domingo")
+       // }
 
         int mes = numeroMes;
         if (numeroMes >= 1 && numeroMes <= 12) {
@@ -52,6 +63,47 @@ public class MêsEdiaDaSemana {
         case 1:
         System.out.println("Janeiro É férias! ");
         break;
+    }
+    switch (diaDaSemana) {
+     case 1:
+        System.out.println("Primeiro dia da Semana! Domingo. ");
+        break;
+     case 2:
+        System.out.println("Segundo dia da Semana! segunda-feira. ");
+        break;
+     case 3:
+        System.out.println("Terceiro dia da semana! Terça-feira. ");
+        break;
+     case 4:
+        System.out.println("Quarto dia da Semana! é quarta-feira. ");
+        break;
+    case 5:
+        System.out.println("Quinta feira! mais já e quinta. ");
+        break;
+    case 6:
+        System.out.println("Sexto dia da Semana! Sexta-feira. ");
+        break;
+    case 7:
+        System.out.println("Agora sim! Sábado. ");
+        break;
+    default:
+        System.out.println("Número inválido! Por favor, digite um número entre 1 e 7. ");
+
+        
+    }
+
+    switch (diaDaSemana) {
+        case 1,2,3:
+        System.out.println("Certo. ");
+        break;
+        case 4:
+        System.out.println("Errado. ");
+        break;
+        case 5:
+        System.out.println("Talcez. ");
+        break;
+        default:
+        System.out.println("Valor indefinido. ");
     }
 
         }
