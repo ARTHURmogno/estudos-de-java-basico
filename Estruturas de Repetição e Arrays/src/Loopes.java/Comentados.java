@@ -99,3 +99,5 @@ As estruturas de repetição são ferramentas indispensáveis para um programado
  * 
  *
  */
+delete: remove arquivo.txt
+ 
