@@ -11,6 +11,8 @@ public class NomeEIdade {
             System.out.println("Digite a idade de " + nome + ": ");
             int idade = scanner.nextInt();
 
+            System.out.println("nome: " + nome + "idade: " + idade);
+
             System.out.println("Digite o nome do próximo aluno ( ou 0 para Sair): ");
             nome = scanner.next();
         }
