@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*Estruturas de Repetição em Java
 Java oferece três principais estruturas de repetição: for, while e do-while. Cada uma tem suas peculiaridades e casos de uso ideais.
 For Loop
@@ -76,69 +78,17 @@ As estruturas de repetição são ferramentas indispensáveis para um programado
  * 
  * 
  * 
- * 
- * 
- * 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  */
+
+
+      public class comentado {
+        public static void main(String[] args) {
+
+                  int i = 0;
+while(i < 5) {
+    System.out.println("Número: " + i);
+    i++;
+}
+          
+        }
+      }
