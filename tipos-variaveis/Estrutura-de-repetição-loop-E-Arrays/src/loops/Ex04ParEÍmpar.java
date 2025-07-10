@@ -7,7 +7,7 @@ package loops;
 
 import java.util.Scanner;
 
-public class ParEÍmpar {
+public class Ex04ParEÍmpar {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -15,17 +15,21 @@ public class ParEÍmpar {
         int numeroPar = 0;
         int numeroÍmpar = 0;
 
-        System.out.println("DIGITE os Números: ");
+        System.out.println("DIGITE a Quantidade de  Números: ");
         int qualNumero = scanner.nextInt();
 
         do {
             System.out.println("DIGITE Número! ");
             int numero = scanner.nextInt();
-            
+
             if (numero % 2 == 0) numeroPar++;
               else numeroÍmpar++;
 
         count++;
         } while (count < qualNumero);
+
+        System.out.println("Quantidade Par: " + numeroPar);
+        System.out.println("Quantidade Ímpar: " + numeroÍmpar);
+        
     }
 }

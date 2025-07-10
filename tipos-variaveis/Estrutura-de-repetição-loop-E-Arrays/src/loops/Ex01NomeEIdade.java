@@ -8,7 +8,7 @@
 package loops;
 import java.util.Scanner;
 
-public class NomeEIdade {
+public class Ex01NomeEIdade {
     public static void main(String[] args) throws Exception {
        Scanner scanner = new Scanner(System.in);
 
