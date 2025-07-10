@@ -26,8 +26,16 @@ public class Ex05Tabuada {
 
         for (int i = 1; i <= 10; i++) {
             int resultado = i * tabuada;
+
+            if (tabuada > 10) {
+                System.out.println("Número: " + tabuada + " inválido: ");
+                break;
+            }
+
             System.out.println("TABUADA de: " + tabuada + " x " + i + " = " + resultado);
-        }
+        
         }
             
     }
+}
+
