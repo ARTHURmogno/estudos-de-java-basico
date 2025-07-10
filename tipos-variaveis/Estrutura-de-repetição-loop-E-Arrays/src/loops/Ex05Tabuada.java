@@ -33,9 +33,10 @@ public class Ex05Tabuada {
             }
 
             System.out.println("TABUADA de: " + tabuada + " x " + i + " = " + resultado);
-        
         }
-            
+            if (tabuada <= 10) {
+                System.out.println("Número: " + tabuada + " Válido. ");
+            }
     }
 }
 
