@@ -37,6 +37,47 @@ public class Ex05Tabuada {
             if (tabuada <= 10) {
                 System.out.println("Número: " + tabuada + " Válido. ");
             }
+
+            /////////////////////////////////////////
+            /*
+             * COM ( WHILE )
+             */
+
+             System.out.println("APARTIR DE AGORA E COM ( WHILE ) ");
+
+            System.out.println("Qual o TABUADA: ");
+            int tab = scanner.nextInt();
+            int i = 1;
+
+            while (i <= 10) {
+                int resulltado = tab * i;
+                System.out.println("TABUADA DE: " + tab + " x " + i + " = " + resulltado);
+                i++;
+            }
+
+
+            ///////////////////////////////////////
+            /*
+             * COM ( DO WHILE )
+             */
+
+             System.out.println("APARTIR DE AGORA E ( DO WHILE ) ");
+
+             System.out.println("QUAL A TABUADA: ");
+             int t = scanner.nextInt();
+
+             int iI = 1;
+
+             do {
+                int resuulltado = iI * t;
+                System.out.println("TABUADA DE: " + t + " x " + iI + " = " + resuulltado);
+                iI++;
+
+             } while (iI <= 10);
+
+             scanner.close();
+
+
     }
 }
 
