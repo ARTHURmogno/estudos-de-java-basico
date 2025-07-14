@@ -1,3 +1,10 @@
+/*
+ * 
+ * Utilizando if else, para desicões.
+ * 
+ */
+
+
 import java.util.Scanner;
 
 

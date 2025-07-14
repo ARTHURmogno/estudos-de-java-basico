@@ -1,3 +1,13 @@
+/* utilizando: if else e switch.
+ *
+ * Estrutura de decisões com if else.
+ *
+ *  Manipulando variável com switch.
+ * 
+ */
+
+
+
 import java.util.Scanner;
 
 
